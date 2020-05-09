@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.center{
+			background: #000;
+			min-height: 70vh;
+			justify-content: space-around;
+			align-items: center;
+		}
+		
+		.center h1{
+			color: #fff;
+			padding: 10px 580px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			
+			padding: 0 540px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 20px;
+			padding: 0 350px;
+			font-weight: 700;
+		}
+		.center a{
+			color: #fff;
+			font-size: 40px;
+			padding: 0 450px;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.6s;
+		}
+		.center img{
+			max-width: 150px;
+			max-height: 150px;
+			padding: 0 580px;
+		}
+		@media (max-width: 900px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 180px;
+			max-height: 180px;
+			padding: 0 300px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 340px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			
+			padding: 0 300px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 20px;
+			padding: 0 200px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 40px;
+			padding: 0 220px;
+			font-weight: 600;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+		@media (max-width: 830px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 160px;
+			max-height: 160px;
+			padding: 0 280px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 270px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 240px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 16px;
+			padding: 0 140px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 30px;
+			padding: 0 200px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+
+		@media (max-width: 750px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 160px;
+			max-height: 160px;
+			padding: 0 280px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 280px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 240px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 13px;
+			padding: 0 140px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 30px;
+			padding: 0 200px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+		@media (max-width: 713px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 150px;
+			max-height: 150px;
+			padding: 0 240px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 240px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 200px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 13px;
+			padding: 0 130px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 20px;
+			padding: 0 200px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+		@media (max-width: 580px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 130px;
+			max-height: 130px;
+			padding: 0 230px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 200px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 170px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 14px;
+			padding: 0 130px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 18px;
+			padding: 0 200px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+		
+		@media (max-width: 569px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 120px;
+			max-height: 120px;
+			padding: 0 190px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 170px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 120px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 13px;
+			padding: 0 120px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 12px;
+			padding: 0 100px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+		@media (max-width: 500px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 100px;
+			max-height: 100px;
+			padding: 0 200px;
+		}
+		.center h1{
+			color: #fff;
+			padding: 10px 170px;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 130px;
+		}
+		.center p{
+			color: #fff;
+			font-size: 13px;
+			padding: 0 140px;
+			font-weight: 500;
+		}
+		.center a{
+			color: #fff;
+			font-size: 18px;
+			padding: 0 150px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+@media (max-width: 370px)
+		{
+			.center{
+			background: #000;
+			height: 100vh;
+			width: 100%;
+		}
+		.center img{
+			max-width: 100px;
+			max-height: 100px;
+			padding: 0 140px;
+			position: relative;
+		}
+		.center h1{
+			color: #fff;
+			padding: 5px 100px;
+			position: relative;
+		}
+		.center h1 span{
+			color: red;
+		}
+		.center h2{
+			color: #fff;
+			padding: 0 70px;
+			position: relative;
+		}
+		.center p{
+			color: #fff;
+			font-size: 10px;
+			padding: 0 60px;
+			font-weight: 500;
+			position: relative;
+		}
+		.center a{
+			color: #fff;
+			font-size: 18px;
+			padding: 0 80px;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.center a:hover{
+			color: green;
+			transition: 0.5s;
+		}
+
+		}
+
+	</style>
+</head>
+<body>
+	<section  class="center">
+		<img src="image/oh.png" alt="ohimage">
+		<h1>ERROR <span>404</span> </h1>
+		<h2>PAGE NOT FOUND</h2>
+
+	<p>The page you are looking for does not exit! Click below to return home page</p>
+	<br>
+	<a href="http://thebhai.life" >go to homepage</a>
+	</section>
+	
+
+</body>
+</html>
