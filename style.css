@@ -76,7 +76,7 @@ header.sticky ul li a
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
-	background: url(image/bg.jpg);
+	background: url(image/bg1.png);
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -439,6 +439,7 @@ header ul li a
 .banner
 {
 	background-position: center;
+	background-size: cover;
 }
 .banner h2
 {
@@ -488,6 +489,7 @@ header ul li a
 	resize: none;
 	letter-spacing: 1px;	
 }
+
 }
 @media(max-width: 403px)
 {
@@ -503,4 +505,5 @@ header ul li a
 	resize: none;
 	letter-spacing: 1px;	
 }
+
 }
